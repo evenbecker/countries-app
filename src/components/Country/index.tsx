@@ -18,8 +18,7 @@ const Country = ({ country }: any) => {
       <img
         src={country.flags.png}
         alt={country.name.official}
-        width="100%"
-        height="200"
+        className="pic"
       />
       <Box ml={3}>
         <Typography variant="h3" my={3} sx={{ fontSize: 18, fontWeight: 800 }}>
